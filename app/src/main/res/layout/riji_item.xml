@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout"
+    android:background="@drawable/riji_item_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="愉快的一天"
+        android:id="@+id/title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018/6/8"
+        android:textColor="#858585"
+        android:id="@+id/time"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:id="@+id/content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:maxEms="50"
+        android:text="颠倒是非三方颠倒是非萨达第三方第三方分第三颠倒是非萨达第三方第三方分方第三方分颠倒是非萨达第三方第方第三方分颠倒是非萨达第三方第三方分颠倒是非萨达第三方第三方分颠倒是非萨达第三方第三方分颠倒是非萨达第三方第三方分颠倒是非萨达第三方第三方分颠倒是非萨达第三方第三方分"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end|bottom"
+        android:id="@+id/update"
+        android:background="@drawable/view_click_bg"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@android:drawable/ic_menu_edit" />
+</FrameLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="?attr/colorError"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#FFFFFF" />
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>

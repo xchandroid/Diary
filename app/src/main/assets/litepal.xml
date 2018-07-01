@@ -1,0 +1,8 @@
+<litepal>
+    <dbname value="Diary"/>
+    <version value = "1"/>
+    <list>
+        <mapping class="com.vaiyee.shangji.xiechanghong.Bean.Diary"/>
+        <mapping class="com.vaiyee.shangji.xiechanghong.Bean.PaixuDiary"/>
+    </list>
+</litepal>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/edit_content_bg"
+    tools:context="com.vaiyee.shangji.xiechanghong.AddActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/view_click_bg"
+        android:scaleType="center"
+        android:src="@drawable/close" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/time"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="2018/6/8"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:text="保存"
+        android:background="@drawable/view_click_bg"
+        android:id="@+id/save"
+        android:textSize="16sp" />
+</RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:id="@+id/title"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textColorHint="#CAE1FF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_textview_bg"
+        android:hint="请输入标题"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="记录这一刻"
+        android:id="@+id/content"
+        android:padding="10dp"
+        android:background="@null"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/content_bg"
+    android:orientation="vertical">
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:hint="按标题进行搜索"
+    android:gravity="center"
+    android:id="@+id/key"
+    android:background="@drawable/edit_textview_bg"
+    android:layout_gravity="center" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:text="搜索"
+        android:id="@+id/sousuo"
+        android:textSize="20sp"
+        android:background="@drawable/button_style1"
+        android:layout_height="40dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
